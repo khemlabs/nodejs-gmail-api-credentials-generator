@@ -1,0 +1,12 @@
+{
+	"name": "Gmail API credentials generator",
+	"version": "0.0.1",
+	"description": "Generate google GMAIL API credentials",
+	"main": "index.js",
+	"author": "pgambetta@khemlabs.com",
+	"license": "MIT",
+	"dependencies": {
+		"google-auth-library": "^0.10.0",
+		"googleapis": "^19.0.0"
+	}
+}
