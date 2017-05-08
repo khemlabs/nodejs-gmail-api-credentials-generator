@@ -1,6 +1,7 @@
 ## Gmail API credentials
 
 This nodejs app helps you to generate valid gmail api credentials
+
 [Official documentation and original code](https://developers.google.com/gmail/api/quickstart/nodejs)
 
 ### Run APP
