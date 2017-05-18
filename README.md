@@ -15,7 +15,7 @@ node index.js
 
 ### Environment variables
 
-* SCOPE: coma separated values
+* SCOPE: comma separated values
 * CLIENT_SECRET_PATH: path to the credentials file __[defaulf: ./client_secret.json]__
 
 ### Download file with *client_id* and *client_secret*
