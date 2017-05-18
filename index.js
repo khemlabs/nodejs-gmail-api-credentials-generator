@@ -46,8 +46,16 @@ function authorize(credentials, callback) {
     if (err) {
       getNewToken(oauth2Client, callback);
     } else {
-      oauth2Client.credentials = JSON.parse(token);
-      callback(oauth2Client);
+      var date = new Date().toISOString();
+      var NEW_PATH = TOKEN_PATH + '.' + date + '.json';
+      console.log('Old credentials move to ' + NEW_PATH);
+      fs.rename(TOKEN_PATH, NEW_PATH, function(err){
+        if(err){
+          console.log(err);
+        } else {
+          getNewToken(oauth2Client, callback);
+        }
+      });
     }
   });
 }

@@ -1,5 +1,5 @@
 {
-	"name": "Gmail API credentials generator",
+	"name": "gmail-api-credentials-generator",
 	"version": "0.0.1",
 	"description": "Generate google GMAIL API credentials",
 	"main": "index.js",
